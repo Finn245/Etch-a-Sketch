@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+h3{
+    color: black;
+}
+.flex-container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+ 
+}
+.grid-item {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+  
+}
+
+
