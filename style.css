@@ -8,21 +8,65 @@ body{
 }
 
 
-h3{
+h1{
     color: black;
+    font-size: 70px;
 }
+.fav-color{
+    
+    height: 150px;
+    width: 200px;
+}
+
+.fav-color input{
+    height: 100%;
+    width: 100%;
+}
+
 .flex-container{
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 500px;
     width: 500px;
- 
-}
-.grid-item {
-    background-color: white;
-    width: 10px;
-    height: 10px;
-  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.box{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+    
+
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+button{
+    width:100%;
+    height:100%;
+}
+
+#buttonClicked{
+    background-color: black;
+    color :white;
+}
 

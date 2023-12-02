@@ -9,15 +9,23 @@
 <body>
     <header title="Etch-a-sketch"><h1>Etch-a-sketch</h1></header>
     
-    <section>
+    <div class="section">
     <div class="flex-container">
     
     </div>
+
         <div class="options">
-            <label for="size">Choose your size</label><input id="size"  type="range" max="100" min="2" value="32">
-            <output for="size" id="sizevalue" >32*32</output>
+          
+            <div class="fav-color"><input type="color" class="colorPanel"></div>
+                <div class="button"><button class="colorMode"> Color Mode</button></div>
+                
+                <div class="button"><button class="rainbow"> Rainbow Mode</button></div>
+                <div class="button"><button class="clear"> Clear</button></div>
+                <label for="size">Choose your size</label><input id="size"  type="range" max="64" min="1" value="32">
+                <output for="size" id="sizevalue" >32*32</output>
+                
         </div>
-</section>
+    </div>
  <script src="java.js"defer></script>
 </body>
 </html>
